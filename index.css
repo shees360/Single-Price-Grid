@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Karla';
+    src: url(assets/fonts/Karla-VariableFont_wght.ttf);
+}
+body{
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: min(40rem, 80%);
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.card{
+    padding: 20px;
+}
+#card1{
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#card1 h2{
+    color: hsl(179, 65%, 46%);
+    font-size: 1.1rem;
+    font-weight: 700rem;
+}
+#card1 h3{
+    color: hsl(71, 73%, 54%);
+    font-size: 0.8rem;
+    font-weight: 700rem;
+}
+#card1 p{
+    color: hsl(218, 22%, 67%);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 25px;
+}
+#card2{
+    background-color: hsl(179, 62%, 43%);
+}
+#card2 h2{
+    color: white;   
+    font-size: 1.1rem;
+    font-weight: 700rem;
+    margin-bottom: 0;
+}
+#access{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 0;
+}
+#card2 div{
+    display: flex;
+    margin-bottom: 0;
+    gap: 10px;
+}
+#card2 div h3{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700rem;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+span{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 50rem;
+    margin-top: 35px;
+}
+button{
+    width: 100%;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-weight: 550;
+    font-size: 0.7rem;
+    padding: 13px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+#card3{
+    background-color: hsl(179, 65%, 46%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#card3 h2{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700rem;
+}
+#card3 p{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+#card3 div{
+    margin-top: 20px;
+    line-height: 5px;
+}
+@media screen and (min-width: 768px) {
+    .about{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card{
+        padding: 30px;
+    }
+    #card1 h2{
+        font-size: 1.5rem;
+    }
+    #card1 h3{
+        font-size: 1.1rem;
+    }
+    #card1 p{
+        font-size: 1rem;
+    }
+    #card2 h2{
+        font-size: 1.5rem;
+    }
+    span{
+        font-size: 1rem;
+    }
+    #card2{
+        border-bottom-left-radius: 5px;
+    }
+    #card2 p{
+        font-size: 1rem;
+        font-weight: 200;
+    }
+    #card3{
+        border-bottom-left-radius: 0px;
+    }
+    #card3 h2{
+        font-size: 1.5rem;
+    }
+    #card3 h3{
+        font-size: 1.1rem;
+    }
+    #card3 p{
+        font-size: 1rem;
+    }
+
+
+}
